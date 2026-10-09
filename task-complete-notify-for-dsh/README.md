@@ -222,3 +222,11 @@ dsh plugin --profile web add link:.
 ## License
 
 MIT
+
+### DSH 0.2 compatibility fork
+
+Version 0.2.1 targets DSH 0.2.0-rc.2 (the latest release checked on 2026-10-09).
+It uses the existing `session/event`, `agent/status`, and `defineTool` APIs;
+no host core modifications or compatibility exemptions are needed.
+Tests run against the dependencies supplied by the target DSH runtime.
+The local installation uses an npm tarball of this package; npm publication is not required.

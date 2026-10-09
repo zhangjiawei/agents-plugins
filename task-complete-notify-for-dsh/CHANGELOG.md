@@ -50,3 +50,9 @@ All notable changes to this plugin are documented here. Format based on
 - Initial release: run-end notifications, error/approval/question alerts,
   duration threshold, custom chime on all three OSes, `/notify-threshold`,
   model-callable `notify` tool.
+
+## 0.2.1
+
+- Declare compatibility with DSH tools 0.2.0-rc.2 and Cordis 4.0.4.
+- Validate tool schemas, completion/error/approval event handlers and configuration persistence against the actual DSH 0.2.0-rc.2 dependency tree.
+- Add a real Cordis event-bus integration test. macOS notification dispatch tested; Windows and Linux GUI delivery remain unverified.
